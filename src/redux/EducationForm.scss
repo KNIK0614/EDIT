@@ -1,0 +1,72 @@
+/* EducationForm.scss */
+.education-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+ 
+    margin-left: 25%;
+    
+   
+    .total {
+    
+      margin-bottom: 0;
+      
+     
+  }
+  
+  .details {
+      margin-top: 0%;
+      text-align: left;
+      
+     
+  }
+ 
+    .form-row {
+      display: flex;
+      align-items: center;
+       margin-top: 0;
+     
+      justify-content:space-between;
+     
+     
+    }
+    .profileFieldInput {
+      align-items: center;
+      border: 2px solid #6864ff;
+      border-radius: 2px;
+      color: grey;
+      display: flex;
+      padding: 10px;
+      width:fit-content;
+      
+  }
+  
+ 
+  .profileBoxUpload {
+      align-items: center;
+    border: dotted;
+    border-radius: 10%;
+      display: flex;
+      height: 60vh;
+      justify-content: center;
+      margin-top: 20px;
+    }  
+    .profileUploadText {
+      align-items: center;
+      background-color: #6864ff;
+      border-radius: 30px;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+      width: 120px;
+  }
+ 
+    .form-actions {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+  }
+  
